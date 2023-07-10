@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+interface Food {
+  value: string;
+  viewValue: string;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +12,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-demo';
+  selected = 'option2';
 }
